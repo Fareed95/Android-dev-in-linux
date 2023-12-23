@@ -1,0 +1,3 @@
+set CC_FOR_TARGET "/usr/bin/ccache /home/fareed/Documents/ANDROIDAPPUSINGKIVY/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -target armv7a-linux-androideabi21 -fomit-frame-pointer -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -mthumb -fPIC"
+set CXX_FOR_TARGET "/usr/bin/ccache /home/fareed/Documents/ANDROIDAPPUSINGKIVY/android-ndk-r26b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -target armv7a-linux-androideabi21 -fomit-frame-pointer -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -mthumb -fPIC"
+set compiler_vendor "clang"

@@ -3,7 +3,7 @@ from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.label import Label
 from kivy.uix.button import Button
-__version__ = "1.0.0"
+
 class tut2(App):
     def build(self):
         layout = BoxLayout(orientation="vertical",padding = 200, spacing =20)
